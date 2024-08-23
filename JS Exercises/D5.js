@@ -56,19 +56,17 @@ const cars = [
   },
 ];
 
-/*
 for (let i = 0; i < cars.length; i++) {
-  let licensePlate;
-  cars[i].push(licensePlate);
+  const carsObj = cars[i];
+  carsObj.licensePlate = "targa";
 }
 console.log(cars);
-*/
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
-
+//cars.push();
 for (let i = 0; i < cars.length; i++) {
   cars[i].trims.pop();
 }
