@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.bg-colorBlu {
+  background-color: #222f3f;
+}
+.logo {
+  width: 8rem;
+  padding: 1rem;
+}
+.horizontal-list li {
+  display: inline-block;
+  padding: 5px;
+  padding-left: 17px;
+}
+.bg-colorLightBlu {
+  background-color: #36475a;
+}
+
+.centrePage {
+  padding: 2rem;
+  background-color: #e9edee;
+}
+.bg-colorOrange {
+  background-color: #f56600;
+}
+.text-centre {
+  text-align: center;
+}
+.textWhite {
+  color: white;
+}
+
+.p-distance {
+  padding: 0.4rem;
+}
+
+.imgBg {
+  background-image: url(./assets/images/bg-image.png);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 22vh;
+  background-repeat: round;
+  background-size: contain;
+}
+h1 {
+  font-size: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.inBold {
+  font-size: large;
+}
+.bg-colorWhite {
+  background-color: white;
+}
+
+.imgLine {
+  height: 350px;
+  margin: 0.8rem;
+  border-radius: 8%;
+  width: 280px;
+  box-shadow: 20px 13px 30px -15px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
+.img-container1 {
+  display: inline-block;
+  width: 100%;
+}
+.img-container2 {
+  width: 100%;
+  padding-top: 1rem;
+  height: 350px;
+}
+
+a {
+  font-size: small;
+  text-decoration-line: none;
+  margin-left: 1rem;
+  font-weight: bold;
+  color: #0b5559;
+}
+h3 {
+  padding: 0.5rem;
+}
+.bottom-pad {
+  padding-bottom: 1rem;
+}
+.logo-footer {
+  width: 8rem;
+  padding: 1rem;
+}
+.text-left {
+  text-align: left;
+}
+footer {
+  padding: 2rem;
+}
+
+.back-to-top {
+  padding: 0.5rem;
+}
